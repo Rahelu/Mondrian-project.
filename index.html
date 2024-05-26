@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      display:flex;
+      justify-content:center;
+      height:100vh;
+      margin:0;
+      padding:0;
+      
+    }
+  .grid-container{
+    width:748px;
+    height: 748px;
+    display:grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 22px;
+    gap: 9px;
+    background-color: black;
+    
+   
+    
+    
+    
+    
+  }
+    .eins{
+      background-color:#E72F24;
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start:1;
+      grid-row-end:2;
+      
+     
+    }
+
+  .zwei{
+    background-color:lightgray ;
+    grid-column-start:2;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end:2;
+
+    
+  }
+
+  .drei{
+
+    background-color: #F9D01E;
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end:5;
+    
+  }
+
+  .fuenf{
+    background-color: lightgray;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end:4;
+    
+  }
+
+  .sechs{
+    background-color:lightgray ;
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:4;
+    
+  }
+  .sieben{
+    background-color: #232629;
+     
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start:4;
+    grid-row-end:5;
+  }
+  .acht{
+  background-color:#004592;
+  grid-column-start:4;
+  grid-column-end:5;
+  grid-row-start:2;
+  grid-row-end:3;
+  border-bottom: solid black 10px;
+  }
+
+  .zehn{
+    background-color: lightgray;
+    grid-column-start:4;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:5;
+  }
+
+  .neun{
+    background-color: lightgrey;
+  }
+
+  </style>
+</head>
+
+<body>
+  
+
+  <div class="grid-container">
+    <div class ="grid-item eins"></div>
+    <div class="grid-item zwei"></div>
+    <div class="grid-item drei"></div>
+    
+
+    <div class="grid-item fuenf"></div>
+    <div class="grid-item sechs"></div>
+
+    <div class="grid-item sieben"></div>
+    <div class="grid-item acht"></div>
+    <div class="grid-item neun"></div>
+    <div class="grid-item zehn"></div>
+    
+  </div>
+</body>
+
+</html>
